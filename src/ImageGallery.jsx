@@ -1173,7 +1173,7 @@ export default class ImageGallery extends React.Component {
       >
 
         <div
-          className={`image-gallery-content${isFullscreen ? ' fullscreen' : ''}`}
+          className={`image-gallery-content${isFullscreen ? ' fullscreen' : 'non-fullscreen'}`}
         >
 
           {
